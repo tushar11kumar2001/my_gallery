@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+ 
+  
+}
+.title{
+    height: 100px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.8rem;
+}
+.content{
+
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.image{
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+    filter: grayscale(90%);
+
+
+}
+.image:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 150px 3px rgba(226, 63, 3, 0.592);
+    filter: grayscale(0%);
+}
+
+.image1{
+       position: relative;
+}
+#text1{
+    position: absolute;
+    color: white; 
+    bottom: 50px;
+ left: 20px;
+}
+.image2{
+    position: relative;
+}
+#text2{
+ position: absolute;
+ color: white; 
+ bottom: 50px;
+ left: 20px;
+}
+.image3{
+    position: relative;
+}
+#text3{
+ position: absolute;
+ color: white; 
+ bottom: 50px;
+ left: 20px;
+}
+.image4{
+    position: relative;
+}
+#text4{
+ position: absolute;
+ color: white; 
+ bottom: 50px;
+ left: 20px;
+}
+.image5{
+    position: relative;
+}
+#text5{
+ position: absolute;
+ color: white;
+ bottom: 50px;
+ left: 20px;
+}
+.image6{
+    position: relative;
+}
+#text6{
+ position: absolute;
+ color: white;
+ bottom: 50px;
+ left: 20px;
+}
+.image7{
+    position: relative;
+}
+#text7{
+ position: absolute;
+ color: white;
+ bottom: 50px;
+ left: 20px;
+}
+.image8{
+    position: relative;
+}
+#text8{
+ position: absolute;
+ color: white;
+ bottom: 50px;
+ left: 20px;
+ 
+}
+.image9{
+    position: relative;
+}
+#text9{
+ position: absolute;
+ color: white;
+ bottom: 50px;
+ left: 20px;
+ 
+}
+.image10{
+    position: relative;
+}
+#text10{
+ position: absolute;
+ color: white;
+ bottom: 50px;
+ left: 20px;
+}
+.image11{
+    position: relative;
+}
+#text11{
+ position: absolute;
+ color: white;
+ bottom: 50px;
+ left: 20px;
+}
+.image12{
+    position: relative;
+}
+#text12{
+ position: absolute;
+ color: white;
+ bottom: 50px;
+ left: 20px;
+}
+.image13{
+    position: relative;
+}
+#text13{
+ position: absolute;
+ color: white;
+ bottom: 50px;
+ left: 20px;
+}
+.image14{
+    position: relative;
+}
+#text14{
+ position: absolute;
+ color: white;
+ bottom: 50px;
+ left: 20px;
+}
+.image15{
+    position: relative;
+}
+#text15{
+ position: absolute;
+ color: white;
+ bottom: 50px;
+ left: 20px;
+}
+.text{
+   opacity: 0;
+}
+.image1{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+}
+.image1:hover .text{
+    opacity: 1;
+}
+
+
+.image2:hover .text{
+    opacity: 1;
+}
+
+.image3:hover .text{
+    opacity: 1;
+}
+
+.image4:hover .text{
+    opacity: 1;
+}
+
+.image5:hover .text{
+    opacity: 1;
+}
+
+.image6:hover .text{
+    opacity: 1;
+}
+
+.image7:hover .text{
+    opacity: 1;
+}
+
+.image8:hover .text{
+    opacity: 1;
+}
+
+.image9:hover .text{
+    opacity: 1;
+}
+
+.image10:hover .text{
+    opacity: 1;
+}
+
+.image11:hover .text{
+    opacity: 1;
+}
+
+.image12:hover .text{
+    opacity: 1;
+}
+
+.image13:hover .text{
+    opacity: 1;
+}
+
+.image14:hover .text{
+    opacity: 1;
+}
+
+.image15:hover .text{
+    opacity: 1;
+}
+p{
+    font-weight: bold;
+}
